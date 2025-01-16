@@ -1,0 +1,11 @@
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+user.name=dev_david
+user.email=david.tien@namtech.sg
+core.autocrlf=true
+difftool.sourcetree.cmd='' 
+mergetool.sourcetree.cmd='' 
+mergetool.sourcetree.trustexitcode=true
+safe.barerepository=explicit
